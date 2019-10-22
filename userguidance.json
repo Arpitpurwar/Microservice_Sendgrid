@@ -1,0 +1,33 @@
+{
+    "ServiceName": "SABC",
+    "Method":"Post",
+    "Request_For_Single_User": {
+        "to": [
+            "xyz@abc.com"
+        ],
+        "subject": "Whatever your subject is",
+        "message": "Your mail body"
+    },
+    "Request_For_Multiple_User": {
+        "to": [
+            "xyz@abc.com",
+            "abc@xyz.com"
+        ],
+        "subject": "Whatever your subject is",
+        "message": "Your mail body"
+    },
+    "response": {
+        "email_to": [
+            "xyz@abc.com"
+        ],
+        "email_from": "noreply@reply.com",
+        "subject": "Whatever your subject is",
+        "status_code": 202,
+        "status": "success"
+    },
+    "when_error":{
+        "Error":"Error_Message",
+        "status":"failed"
+    }
+   
+}

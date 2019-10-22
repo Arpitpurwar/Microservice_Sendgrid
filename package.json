@@ -1,0 +1,23 @@
+{
+  "name": "sendgridservices",
+  "version": "1.0.0",
+  "description": "It is generic api to send mail from sendgrid",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Sendgrid"
+  ],
+  "author": "Arpit Purwar <apurwa19@in.ibm.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^6.3.1",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-secure-only": "^0.2.1",
+    "helmet": "^3.15.0",
+    "request": "^2.88.0"
+  }
+}

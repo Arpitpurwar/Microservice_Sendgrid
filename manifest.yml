@@ -1,0 +1,5 @@
+---
+applications:
+ - name: mail-service
+   random-route: false
+   memory: 67M
