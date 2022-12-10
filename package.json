@@ -15,7 +15,7 @@
   "dependencies": {
     "@sendgrid/mail": "^6.3.1",
     "cors": "^2.8.5",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "express-secure-only": "^0.2.1",
     "helmet": "^3.15.0",
     "request": "^2.88.0"
